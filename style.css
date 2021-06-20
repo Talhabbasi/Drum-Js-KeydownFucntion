@@ -50,12 +50,24 @@ kbd{
     body{
         background-size: 1210px;
     }
-    .keys{
- position: relative;
- left: 0;
- flex-direction: column;
-     
-        
+    kbd{
+        font-size: 15px;
     }
+    .keys{
+
+ font-size: 2px;
+ flex-direction: column;
+   }
+   .key{
+    box-shadow: 0 0 .1rem black;
+       margin-right: 16rem;
+       width: 10%;
+       height: 40px;
+       padding: 0.2px;
+       font-size: 2px;
+   }
+   .sound{
+       font-size: 11px;
+   }
     
 }
